@@ -1,4 +1,4 @@
-FROM python:3.11-slim-bullseye as builder
+FROM python:3.11-slim-bullseye AS builder
 
 # Build dummy packages to skip installing them and their dependencies
 RUN apt-get update \
